@@ -1,0 +1,98 @@
+{
+  "theme": "mint",
+  "name": "OmniLocal",
+  "colors": {
+    "primary": "#64B4Ed",
+    "light": "#64B4ed",
+    "dark": "#64B4Ed"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://omnilocal.com"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "support@OmniLocal.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://omnilocal.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "youtube": "https://www.youtube.com/@omnilocalai",
+      "facebook": "https://www.facebook.com/OmniLocalCo/",
+      "linkedin": "https://www.linkedin.com/company/omnilocal-co/"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://OmniLocal.com/posts"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/GLSA",
+              "guides/google-business-profiles",
+              {
+                "group": "Google Business Profiles",
+                "pages": [
+                  "untitled-page"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
