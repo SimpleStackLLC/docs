@@ -68,7 +68,8 @@
                 "group": "Google Business Profiles",
                 "pages": [
                   "untitled-page"
-                ]
+                ],
+                "icon": "google"
               }
             ]
           }
