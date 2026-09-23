@@ -54,24 +54,46 @@
           {
             "group": "Getting Started",
             "pages": [
-              "introduction"
+              "introduction",
+              "getting-started/sign-in-and-organizations",
+              "getting-started/add-your-first-location",
+              "getting-started/connect-google-business-profile",
+              "getting-started/connect-google-local-services-ads"
             ]
           },
           {
             "group": "Locations & presence",
-            "pages": []
+            "pages": [
+              "locations/overview",
+              "locations/citations",
+              "locations/reviews"
+            ]
           },
           {
             "group": "Rankings & markets",
-            "pages": []
+            "pages": [
+              "rankings/overview",
+              "rankings/markets",
+              "rankings/ai-visibility"
+            ]
           },
           {
             "group": "Leads & CRM",
-            "pages": []
+            "pages": [
+              "crm/inbox",
+              "crm/contacts",
+              "crm/projects",
+              "crm/types-and-stages"
+            ]
           },
           {
             "group": "Account & billing",
-            "pages": []
+            "pages": [
+              "account/settings",
+              "account/goals-and-notifications",
+              "account/messaging-and-phones",
+              "account/billing"
+            ]
           }
         ]
       },
