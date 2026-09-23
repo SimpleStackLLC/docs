@@ -22,7 +22,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://omnilocal.com"
+      "href": "https://app.omnilocal.com"
     }
   },
   "footer": {
