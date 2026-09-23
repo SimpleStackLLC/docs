@@ -3,23 +3,82 @@ title: "Locations"
 description: "Manage business locations, connections, and per-location detail."
 ---
 
-Manage every business location in your organization from the Locations sidebar.
+Locations are the core unit in OmniLocal. Rankings, reviews, citations, AI Visibility, Inbox activity, and many Overview KPIs attach to each business location.
+
+Signed-in URLs always include your org slug: `app.omnilocal.com/{org-slug}/...`.
+
+## Locations list
+
+Open **Locations** in the sidebar to see every location in the organization.
+
+| Column | What it shows |
+| --- | --- |
+| **Name** | Location display name |
+| **Address** | Business address |
+| **Industry** | Industry assigned to the location |
+| **Status** | Current location status |
+| **Connections** | Connected sources such as GBP and Local Service Ads |
+| **Last Synced** | When data last synced for the location |
+
+## Add a location
+
+<Steps>
+  <Step title="Open Locations">
+    In the sidebar, go to **Locations**.
+  </Step>
+  <Step title="Choose Add Location">
+    Select **Add Location** and enter the location details.
+  </Step>
+  <Step title="Confirm in the table">
+    The new location appears with **Name**, **Address**, **Industry**, **Status**, **Connections**, and **Last Synced**.
+  </Step>
+</Steps>
+
+For a first-time walkthrough, see [Add your first location](/getting-started/add-your-first-location).
+
+## Location detail
+
+Open a location to manage its profile and connections:
+
+- **Location Info** — core business details
+- **GBP** — Google Business Profile connection status
+- **Local Service Ads** — GLSA connection status
+- **Geo Target** — geographic targeting for the location
+
+Use the location tabs for **Rankings**, **Inbox**, and **Contacts** scoped to that location.
+
+From location detail you can also **Edit**, **Archive**, or **Delete** the location.
+
+## Overview KPI
+
+On **Overview**, the locations count updates as you add locations. Other Overview cards depend on connections and data:
+
+| KPI | Needs |
+| --- | --- |
+| Average rating | GBP connected |
+| New leads | GLSA connected |
+| Pipeline value | Projects data |
 
 <Note>
-This guide is a stub. Full walkthrough coming next.
+  Connect Google Business Profile and Google Local Services Ads so ratings, reviews, and leads can flow into Overview, Reviews, and Inbox.
 </Note>
-
-## What you can do here
-
-- Add a location with **Add Location**
-- Review the table: Name, Address, Industry, Status, Connections, Last Synced
-- Open location detail for Location Info, GBP, Local Service Ads, and Geo Target
-- Use location tabs for Rankings, Inbox, and Contacts
-- See locations count on Overview
 
 ## Related
 
-- [Add your first location](/getting-started/add-your-first-location)
-- [Citations](/locations/citations)
-- [Reviews](/locations/reviews)
-- [Connect Google Business Profile](/getting-started/connect-google-business-profile)
+<CardGroup cols={2}>
+  <Card title="Add your first location" icon="map-pin" href="/getting-started/add-your-first-location">
+    Create a location and open its detail page.
+  </Card>
+
+  <Card title="Citations" icon="list" href="/locations/citations">
+    Directory listings and NAP consistency.
+  </Card>
+
+  <Card title="Reviews" icon="star" href="/locations/reviews">
+    Timeline, velocity, and Google replies.
+  </Card>
+
+  <Card title="Connect GBP" icon="google" href="/getting-started/connect-google-business-profile">
+    Unlock ratings and review sync.
+  </Card>
+</CardGroup>
