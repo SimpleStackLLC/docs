@@ -62,7 +62,7 @@
             ]
           },
           {
-            "group": "Locations & presence",
+            "group": "Product",
             "pages": [
               "locations/overview",
               "locations/citations",
@@ -87,7 +87,7 @@
             ]
           },
           {
-            "group": "Account & billing",
+            "group": "Account",
             "pages": [
               "account/settings",
               "account/goals-and-notifications",
