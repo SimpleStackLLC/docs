@@ -3,7 +3,7 @@ title: "Locations"
 description: "Manage business locations, connections, and per-location detail."
 ---
 
-Locations are the core unit in OmniLocal. Rankings, reviews, citations, AI Visibility, Inbox activity, and many Overview KPIs attach to each business location.
+Locations are the core unit in OmniLocal. Rankings, reviews, AI Visibility, and many Overview KPIs attach to each business location.
 
 Signed-in URLs always include your org slug: `app.omnilocal.com/{org-slug}/...`.
 
@@ -42,12 +42,16 @@ Open a location to manage its profile and connections:
 
 - **Location Info** — core business details
 - **GBP** — Google Business Profile connection status
-- **Local Service Ads** — GLSA connection status
+- **Local Service Ads** — optional GLSA connection status when you use Local Service Ads
 - **Geo Target** — geographic targeting for the location
 
-Use the location tabs for **Rankings**, **Inbox**, and **Contacts** scoped to that location.
+Use the location **Rankings** tab for position data scoped to that location.
 
 From location detail you can also **Edit**, **Archive**, or **Delete** the location.
+
+<Note>
+  **Local Service Ads** (GLSA) may appear on location detail when relevant. Connecting it can surface lead-related signals on Overview and enrich GLSA columns in [Markets](/rankings/markets). It is optional — not part of the Getting Started path.
+</Note>
 
 ## Overview KPI
 
@@ -56,11 +60,10 @@ On **Overview**, the locations count updates as you add locations. Other Overvie
 | KPI | Needs |
 | --- | --- |
 | Average rating | GBP connected |
-| New leads | GLSA connected |
-| Pipeline value | Projects data |
+| New leads | Local Service Ads connected (when used) |
 
 <Note>
-  Connect Google Business Profile and Google Local Services Ads so ratings, reviews, and leads can flow into Overview, Reviews, and Inbox.
+  Connect Google Business Profile so ratings and reviews can flow into Overview and Reviews.
 </Note>
 
 ## Related
@@ -70,15 +73,15 @@ On **Overview**, the locations count updates as you add locations. Other Overvie
     Create a location and open its detail page.
   </Card>
 
-  <Card title="Citations" icon="list" href="/locations/citations">
-    Directory listings and NAP consistency.
-  </Card>
-
   <Card title="Reviews" icon="star" href="/locations/reviews">
     Timeline, velocity, and Google replies.
   </Card>
 
   <Card title="Connect GBP" icon="google" href="/getting-started/connect-google-business-profile">
     Unlock ratings and review sync.
+  </Card>
+
+  <Card title="Rankings" icon="chart-line" href="/rankings/overview">
+    Track positions for your locations.
   </Card>
 </CardGroup>

@@ -65,34 +65,20 @@
             "group": "Product",
             "pages": [
               "locations/overview",
-              "locations/citations",
-              "locations/reviews"
-            ]
-          },
-          {
-            "group": "Rankings & markets",
-            "pages": [
+              "locations/reviews",
               "rankings/overview",
               "rankings/markets",
-              "rankings/ai-visibility"
-            ]
-          },
-          {
-            "group": "Leads & CRM",
-            "pages": [
-              "crm/inbox",
-              "crm/contacts",
-              "crm/projects",
-              "crm/types-and-stages"
+              "rankings/ai-visibility",
+              "locations/citations"
             ]
           },
           {
             "group": "Account",
             "pages": [
               "account/settings",
+              "account/billing",
               "account/goals-and-notifications",
-              "account/messaging-and-phones",
-              "account/billing"
+              "account/messaging-and-phones"
             ]
           }
         ]
@@ -118,5 +104,27 @@
         "hidden": true
       }
     ]
-  }
+  },
+  "redirects": [
+    {
+      "source": "/crm/contacts",
+      "destination": "/introduction",
+      "permanent": false
+    },
+    {
+      "source": "/crm/types-and-stages",
+      "destination": "/introduction",
+      "permanent": false
+    },
+    {
+      "source": "/crm/projects",
+      "destination": "/introduction",
+      "permanent": false
+    },
+    {
+      "source": "/crm/inbox",
+      "destination": "/introduction",
+      "permanent": false
+    }
+  ]
 }
