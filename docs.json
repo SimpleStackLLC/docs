@@ -52,26 +52,26 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
-            "group": "Guides",
-            "pages": [
-              "guides/GLSA",
-              "guides/google-business-profiles",
-              {
-                "group": "Google Business Profiles",
-                "pages": [
-                  "How-to-Transfer-Ownership-of-a-Google-Business-Page"
-                ],
-                "icon": "google"
-              }
-            ]
+            "group": "Locations & presence",
+            "pages": []
+          },
+          {
+            "group": "Rankings & markets",
+            "pages": []
+          },
+          {
+            "group": "Leads & CRM",
+            "pages": []
+          },
+          {
+            "group": "Account & billing",
+            "pages": []
           }
         ]
       },
@@ -92,7 +92,8 @@
               "api-reference/endpoint/delete"
             ]
           }
-        ]
+        ],
+        "hidden": true
       }
     ]
   }
