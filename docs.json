@@ -52,25 +52,47 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
               "introduction",
-              "quickstart",
-              "development"
+              "getting-started/sign-in-and-organizations",
+              "getting-started/add-your-first-location",
+              "getting-started/connect-google-business-profile",
+              "getting-started/connect-google-local-services-ads"
             ]
           },
           {
-            "group": "Guides",
+            "group": "Locations & presence",
             "pages": [
-              "guides/GLSA",
-              "guides/google-business-profiles",
-              {
-                "group": "Google Business Profiles",
-                "pages": [
-                  "How-to-Transfer-Ownership-of-a-Google-Business-Page"
-                ],
-                "icon": "google"
-              }
+              "locations/overview",
+              "locations/citations",
+              "locations/reviews"
+            ]
+          },
+          {
+            "group": "Rankings & markets",
+            "pages": [
+              "rankings/overview",
+              "rankings/markets",
+              "rankings/ai-visibility"
+            ]
+          },
+          {
+            "group": "Leads & CRM",
+            "pages": [
+              "crm/inbox",
+              "crm/contacts",
+              "crm/projects",
+              "crm/types-and-stages"
+            ]
+          },
+          {
+            "group": "Account & billing",
+            "pages": [
+              "account/settings",
+              "account/goals-and-notifications",
+              "account/messaging-and-phones",
+              "account/billing"
             ]
           }
         ]
@@ -92,7 +114,8 @@
               "api-reference/endpoint/delete"
             ]
           }
-        ]
+        ],
+        "hidden": true
       }
     ]
   }
