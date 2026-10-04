@@ -1,0 +1,107 @@
+---
+title: "Show up in AI answers"
+description: "What Google, OpenAI, and Anthropic actually publish about showing up in AI answers, and what OmniLocal can see."
+keywords:
+  - "AI Overviews"
+  - "ChatGPT search"
+  - "Gemini"
+  - "Claude"
+  - "llms.txt"
+  - "OAI-SearchBot"
+  - "Claude-SearchBot"
+---
+
+## Questions this page answers
+
+- How do I rank higher on AI, ChatGPT, Gemini, or Claude?
+- Should I add an llms.txt file?
+- If I block the crawler, will I disappear?
+
+There is no official ranking-factors list for ChatGPT, Gemini, or Claude. Do not treat a best-of list, a count of citations, a count of review sites, an FAQ block, schema, or a brand mention as a proven AI ranking factor.
+
+## Google
+
+Google does not run a second ranking system for AI answers. AI Overviews and AI Mode use the same core Search ranking and quality systems. Google's guide is [AI optimization for Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide). AEO and GEO are not a separate official program.
+
+### Indexed, and allowed to show a snippet
+
+The page has to be indexed. It also has to be allowed to show a snippet. See [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features). Meeting those rules does not guarantee that Google will include the page.
+
+The site must stay allowed in the Search Console control for generative AI features. Google documents that control in [Generative AI features in Search](https://support.google.com/webmasters/answer/16908024). Turning that control off blocks those AI surfaces only. It does not, by itself, remove the site from all of Search.
+
+### How an answer is built
+
+Answers are grounded in pages Google retrieves. The model may then run related searches. AI Overviews and AI Mode can cite different pages for the same question.
+
+An up-to-date Business Profile can supply local facts. [Locations](/locations/overview) shows that a profile is connected. It does not show whether those facts are current.
+
+### What to publish
+
+Write for people, in text. Allow crawling. Link your important pages. Give the page a good page experience. Use real images or video. If you use structured data, it must match the visible text.
+
+### What not to chase
+
+An llms.txt file does not help or hurt Google Search. You do not need to add one for Google.
+
+You do not need to split pages into chunks for Google. You do not need a special schema for these AI features. Do not chase fake mentions.
+
+### What OmniLocal can see
+
+[AI Visibility](/rankings/ai-visibility) shows whether the checks saw the business. It cannot see index status, robots rules, or page quality.
+
+[Rankings](/rankings/overview) and [Reviews](/locations/reviews) cover the Google local side: a tracked position, review count, and rating. They do not show whether a page is indexed.
+
+## ChatGPT
+
+OpenAI does not publish a ranking-factors list. ChatGPT search uses several factors. None of them guarantee a place in the answer. See [ChatGPT search](https://help.openai.com/en/articles/9237897-chatgpt-search).
+
+### If you block a crawler
+
+The site must allow OAI-SearchBot if you want it in ChatGPT search answers. OpenAI documents its bots in [Overview of OpenAI crawlers](https://developers.openai.com/api/docs/bots). Blocking OAI-SearchBot keeps the site out of those search answers. The site can still appear as a plain navigation link.
+
+GPTBot is the training crawler. Blocking GPTBot does not, by itself, remove the site from search when OAI-SearchBot is still allowed.
+
+ChatGPT-User is a visit after a person asks a question. It is not how OpenAI decides whether to include the site.
+
+### Location, shopping, and booking
+
+Local answers use a rough location from the IP address or the device location, then a search partner. OpenAI does not say that a Google Business Profile is an input.
+
+Shopping is a different product. See [Shopping with ChatGPT search](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search). It is not ads. It is not a local service ranking formula.
+
+Restaurant booking through OpenTable, Resy, or Yelp is a narrow exception. It is not a general formula for local services.
+
+OmniLocal cannot see whether OAI-SearchBot, GPTBot, or ChatGPT-User is allowed. Do not invent a crawl or an index status.
+
+## Claude
+
+Anthropic does not publish ranking factors. Claude can search the web and cite pages. The help page does not say which businesses it prefers. See [Enable and use web search](https://support.claude.com/en/articles/10684626-enable-and-use-web-search).
+
+Claude uses a rough location from the IP address only.
+
+### If you block a crawler
+
+Blocking Claude-SearchBot can reduce the site's presence in Claude's search index. Blocking Claude-User can stop Claude from opening the page. ClaudeBot is the training crawler. It is not the switch for search. Anthropic explains the crawlers in [Does Anthropic crawl data from the web?](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler).
+
+Image search in Claude is powered by Bing. That is a note about the source. It is not a ranking guide.
+
+Citation docs for the Claude API are for people building on the API. They are not a local ranking formula.
+
+OmniLocal cannot see whether Claude-SearchBot, Claude-User, or ClaudeBot is allowed. [AI Visibility](/rankings/ai-visibility) only shows whether a check saw the business.
+
+## What people also ask about
+
+People also ask about primary category, extra categories, business name keywords, an address in the city, pin placement, review recency, citation consistency, and website pages for a service and a city.
+
+Google has not confirmed those as ranking factors on the official pages this guide cites. OpenAI and Anthropic have not published them as AI ranking factors either. This page does not treat them as steps to take.
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="AI Visibility" icon="sparkles" href="/rankings/ai-visibility">
+    Whether OmniLocal's checks saw the business.
+  </Card>
+  <Card title="Rank higher on Google Maps" icon="map" href="/ranking/google-maps">
+    The Google local factors this app can partly see.
+  </Card>
+</CardGroup>
