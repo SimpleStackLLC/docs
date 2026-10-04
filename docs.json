@@ -73,6 +73,15 @@
             ]
           },
           {
+            "group": "Ranking",
+            "pages": [
+              "ranking/local-pack-and-maps",
+              "ranking/google-maps",
+              "ranking/local-services-ads",
+              "ranking/ai-answers"
+            ]
+          },
+          {
             "group": "Account",
             "pages": [
               "account/settings",
