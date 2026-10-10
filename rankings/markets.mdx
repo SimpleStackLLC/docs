@@ -19,8 +19,19 @@ Filter the list of US cities and counties, then review:
 | **GLSA** | Google Local Services Ads presence |
 | **Local Pack** | Local Pack visibility |
 | **Maps** | Maps visibility |
+| **Coverage** | A small dot grid showing where your business ranks across the market (see below) |
 | **Scanned** | Whether the market has been scanned |
 | **Top 3** | Top 3 presence |
+
+### Coverage column
+
+On markets where we check rankings across a grid of areas, **Coverage** shows one dot per area, colored by your business's typical (median) rank there across recent checks:
+
+- **Green**: top 3
+- **Amber**: 4 to 10
+- **Red**: 11 or lower, or not found in that area
+
+Hover the grid to see how many areas you're in the top 3, how many areas you were found in, and your city-search rank at the city center. If your business wasn't found in any of the areas checked, the dots are gray and the tooltip says so. The cell shows a dash when a market doesn't have grid data yet.
 
 ## Market detail
 
@@ -32,6 +43,14 @@ Open a market to dig into detail tabs:
 | **GLSA** | Local Services Ads detail |
 | **Local Pack** | Local Pack detail |
 | **Maps** | Maps detail |
+
+### Maps column on grid-enabled markets
+
+On markets with grid data, the **Maps** column in the business table shows each business's **city-search rank at the city center** (for example **#2**), with the number of areas it was found in underneath (for example **9 of 9 areas**). The badge is green for top 3, amber for 4 to 10, and red for 11 or lower. **20+** means the business isn't in the top 20 at the city center.
+
+Hover the badge for more detail: top-3 areas, areas found, the "near me" 30-day average at the center, and when the grid was last checked. Sorting by Maps sorts by the city-center rank; businesses that aren't ranked at the center but appear in some areas come after, ordered by how many areas they're missing.
+
+Markets without grid data keep the regular 30-day average rank in the Maps column.
 
 <Note>
   If a location has **Local Service Ads** connected, Overview can show lead-related signals and Markets can enrich GLSA-related columns. Connecting LSA is optional — see [Locations](/locations/overview).
